@@ -20,6 +20,6 @@ Bu dosya, Kütüphane Yönetim Sistemi ödevinin yönergedeki adımlara göre ge
 - [x] **Formatlı Çıktı:** Sınıfların içine `__str__` metodu yazılarak (override) listeleme ekranında verilerin temiz bir metin halinde yazdırılması sağlandı.
 
 ## Teslim Aşaması
-- [ ] Kodların değişken adlarında Türkçe karakter kullanılmadan, temel standartlarda yazılması sağlandı.
-- [ ] GitHub deposu oluşturularak gerekli kodlar ve dokümantasyon dosyaları eklendi.
+- [x] Kodların değişken adlarında Türkçe karakter kullanılmadan, temel standartlarda yazılması sağlandı.
+- [x] GitHub deposu oluşturularak gerekli kodlar ve dokümantasyon dosyaları eklendi.
 - [ ] Tasarım çizimleri ve GitHub linki bir PDF'te birleştirilip Classroom üzerinden teslim edilecek. *(Son adım)*

@@ -11,7 +11,7 @@ Bu dosya, Kütüphane Yönetim Sistemi ödevinin yönergedeki adımlara göre ge
 - [x] **2.1 Kapsülleme (Zorunlu):** Tüm sınıflardaki özellikler `self._degisken` formatında kapsüllendi, `@property` ve `@deger.setter` ile güvenli erişim sağlandı.
 - [x] **2.2 Kalıtım (Zorunlu):** Kitap ve Dergi sınıfları Kaynak sınıfından miras aldı. Üst sınıf bağlantıları `super().__init__()` ile kuruldu.
 - [x] **2.3 Soyut Sınıf (Zorunlu):** `abc` modülü sisteme dahil edildi. `Islem` sınıfında `ekle`, `sil`, `guncelle`, `listele` metotları `@abstractmethod` olarak tanımlandı.
-- [ ] **2.4 Menü Döngüsü (Zorunlu):** Sistem arayüzü `while True` döngüsü içine alınarak sürekli çalışması sağlandı. Kullanıcı seçimleri `if-elif` yapısıyla yönlendirildi.
+- [x] **2.4 Menü Döngüsü (Zorunlu):** Sistem arayüzü `while True` döngüsü içine alınarak sürekli çalışması sağlandı. Kullanıcı seçimleri `if-elif` yapısıyla yönlendirildi.
 
 ## Bölüm 3 - Bonus Uygulamaları
 - [ ] **Kayıt Numarası Kontrolü:** Aynı `kayit_no` ile ikinci bir kitabın veya derginin eklenmesi engellendi.

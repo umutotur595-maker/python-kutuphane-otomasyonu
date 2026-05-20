@@ -1,4 +1,4 @@
-push ederken kaynaklanan bir sorunu düzeltebilmek amaçlı cursor kullanılmıştır.
+#push ederken kaynaklanan bir sorunu düzeltebilmek amaçlı cursor kullanılmıştır.
 # Kütüphane Yönetim Sistemi
 
 Bu proje, Nesne Yönelimli Programlama dersi ödevi kapsamında geliştirilmiş basit bir konsol (CLI) uygulamasıdır. Projede Python kullanılmış olup, temel OOP (Nesne Yönelimli Programlama) kavramları pratiğe dökülmüştür.

@@ -14,8 +14,8 @@ Bu dosya, Kütüphane Yönetim Sistemi ödevinin yönergedeki adımlara göre ge
 - [x] **2.4 Menü Döngüsü (Zorunlu):** Sistem arayüzü `while True` döngüsü içine alınarak sürekli çalışması sağlandı. Kullanıcı seçimleri `if-elif` yapısıyla yönlendirildi.
 
 ## Bölüm 3 - Bonus Uygulamaları
-- [ ] **Kayıt Numarası Kontrolü:** Aynı `kayit_no` ile ikinci bir kitabın veya derginin eklenmesi engellendi.
-- [ ] **Hata Mesajları:** Listeleme, silme veya güncelleme yaparken ilgili kayıt yoksa "Kayıt bulunamadı." mesajı gösterildi.
+- [x] **Kayıt Numarası Kontrolü:** Aynı `kayit_no` ile ikinci bir kitabın veya derginin eklenmesi engellendi.
+- [x] **Hata Mesajları:** Listeleme, silme veya güncelleme yaparken ilgili kayıt yoksa "Kayıt bulunamadı." mesajı gösterildi.
 - [ ] **Kayıt Sayısı Sayacı:** Ekleme ve listeleme ekranlarının sonuna o anki toplam kitap/dergi sayısını hesaplayıp gösteren `len()` fonksiyonları eklendi.
 - [ ] **Formatlı Çıktı:** Sınıfların içine `__str__` metodu yazılarak (override) listeleme ekranında verilerin temiz bir metin halinde yazdırılması sağlandı.
 

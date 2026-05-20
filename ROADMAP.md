@@ -3,9 +3,9 @@
 Bu dosya, Kütüphane Yönetim Sistemi ödevinin yönergedeki adımlara göre geliştirilme aşamalarını ve tamamlanma durumunu göstermektedir.
 
 ## Bölüm 1 - Tasarım
-- [ ] **1.1 Sınıf Diyagramı:** Sınıflar, özellikler ve metotlar belirlendi. Kalıtım ilişkileri kağıt üzerinde çizilmek üzere planlandı.
-- [ ] **1.2 Özelliklerin Belirlenmesi:** Kaynak (baslik, kayit_no), Kitap (sayfa_sayisi, yazar) ve Dergi (konu, baski_sayisi) özellikleri tabloya uygun şekilde netleştirildi.
-- [ ] **1.3 Menü Tasarımı:** 1-4 Kitap işlemleri, 5-8 Dergi işlemleri ve 9 Çıkış olacak şekilde 9 maddeli konsol menüsü tasarlandı.
+- [x] **1.1 Sınıf Diyagramı:** Sınıflar, özellikler ve metotlar belirlendi. Kalıtım ilişkileri kağıt üzerinde çizilmek üzere planlandı.
+- [x] **1.2 Özelliklerin Belirlenmesi:** Kaynak (baslik, kayit_no), Kitap (sayfa_sayisi, yazar) ve Dergi (konu, baski_sayisi) özellikleri tabloya uygun şekilde netleştirildi.
+- [x] **1.3 Menü Tasarımı:** 1-4 Kitap işlemleri, 5-8 Dergi işlemleri ve 9 Çıkış olacak şekilde 9 maddeli konsol menüsü tasarlandı.
 
 ## Bölüm 2 - Kodlama
 - [ ] **2.1 Kapsülleme (Zorunlu):** Tüm sınıflardaki özellikler `self._degisken` formatında kapsüllendi, `@property` ve `@deger.setter` ile güvenli erişim sağlandı.

@@ -8,9 +8,9 @@ Bu dosya, Kütüphane Yönetim Sistemi ödevinin yönergedeki adımlara göre ge
 - [x] **1.3 Menü Tasarımı:** 1-4 Kitap işlemleri, 5-8 Dergi işlemleri ve 9 Çıkış olacak şekilde 9 maddeli konsol menüsü tasarlandı.
 
 ## Bölüm 2 - Kodlama
-- [ ] **2.1 Kapsülleme (Zorunlu):** Tüm sınıflardaki özellikler `self._degisken` formatında kapsüllendi, `@property` ve `@deger.setter` ile güvenli erişim sağlandı.
-- [ ] **2.2 Kalıtım (Zorunlu):** Kitap ve Dergi sınıfları Kaynak sınıfından miras aldı. Üst sınıf bağlantıları `super().__init__()` ile kuruldu.
-- [ ] **2.3 Soyut Sınıf (Zorunlu):** `abc` modülü sisteme dahil edildi. `Islem` sınıfında `ekle`, `sil`, `guncelle`, `listele` metotları `@abstractmethod` olarak tanımlandı.
+- [x] **2.1 Kapsülleme (Zorunlu):** Tüm sınıflardaki özellikler `self._degisken` formatında kapsüllendi, `@property` ve `@deger.setter` ile güvenli erişim sağlandı.
+- [x] **2.2 Kalıtım (Zorunlu):** Kitap ve Dergi sınıfları Kaynak sınıfından miras aldı. Üst sınıf bağlantıları `super().__init__()` ile kuruldu.
+- [x] **2.3 Soyut Sınıf (Zorunlu):** `abc` modülü sisteme dahil edildi. `Islem` sınıfında `ekle`, `sil`, `guncelle`, `listele` metotları `@abstractmethod` olarak tanımlandı.
 - [ ] **2.4 Menü Döngüsü (Zorunlu):** Sistem arayüzü `while True` döngüsü içine alınarak sürekli çalışması sağlandı. Kullanıcı seçimleri `if-elif` yapısıyla yönlendirildi.
 
 ## Bölüm 3 - Bonus Uygulamaları

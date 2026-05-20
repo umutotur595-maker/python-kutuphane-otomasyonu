@@ -1,13 +1,10 @@
-# Python OOP Odevi - Kutuphane Yonetim Sistemi
 from abc import ABC, abstractmethod
 
-# Kaynak: Soyut Sinif (ABC)
 class Kaynak(ABC):
     def __init__(self, baslik, kayit_no):
         self.baslik = baslik
         self.kayit_no = kayit_no
 
-    # Kapsulleme (Zorunlu)
     @property
     def baslik(self):
         return self._baslik
@@ -28,7 +25,6 @@ class Kaynak(ABC):
     def __str__(self):
         pass
 
-# Kitap: Kaynak'tan turetilir
 class Kitap(Kaynak):
     def __init__(self, baslik, kayit_no, sayfa_sayisi, yazar):
         super().__init__(baslik, kayit_no)
@@ -54,7 +50,6 @@ class Kitap(Kaynak):
     def __str__(self):
         return f"Kitap [Kayit No: {self.kayit_no}] - {self.baslik} | Yazar: {self.yazar} | Sayfa: {self.sayfa_sayisi}"
 
-# Dergi: Kaynak'tan turetilir
 class Dergi(Kaynak):
     def __init__(self, baslik, kayit_no, konu, baski_sayisi):
         super().__init__(baslik, kayit_no)
@@ -80,7 +75,6 @@ class Dergi(Kaynak):
     def __str__(self):
         return f"Dergi [Kayit No: {self.kayit_no}] - {self.baslik} | Konu: {self.konu} | Baski Sayisi: {self.baski_sayisi}"
 
-# Islem: Soyut Sinif (ABC)
 class Islem(ABC):
     @abstractmethod
     def ekle(self, tum_kayitlar):
@@ -98,7 +92,6 @@ class Islem(ABC):
     def listele(self):
         pass
 
-# KitapIslem: Islem'den turetilir
 class KitapIslem(Islem):
     def __init__(self):
         self.kitaplar = []
@@ -159,7 +152,6 @@ class KitapIslem(Islem):
                 print(kitap)
             print(f"Toplam Kitap Sayisi: {len(self.kitaplar)}")
 
-# DergiIslem: Islem'den turetilir
 class DergiIslem(Islem):
     def __init__(self):
         self.dergiler = []
@@ -220,7 +212,6 @@ class DergiIslem(Islem):
                 print(dergi)
             print(f"Toplam Dergi Sayisi: {len(self.dergiler)}")
 
-# Menu: Normal sinif
 class Menu:
     def __init__(self):
         self.kitap_islem = KitapIslem()
@@ -265,7 +256,6 @@ class Menu:
             else:
                 print("Hatali secim! Lutfen 1-9 arasi bir sayi giriniz.")
 
-# Programi Calistir
 if __name__ == "__main__":
     sistem_menusu = Menu()
     sistem_menusu.baslat()
